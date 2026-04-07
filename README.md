@@ -68,50 +68,9 @@ npm run start
 
 ---
 
-## 🧹 Linting
-
-Run lint check:
-
-```bash
-npm run lint
-```
-
----
-
-## 📁 Project Structure
-
-```
-.
-├── app/            # App router (Next.js 13+)
-├── pages/          # Pages router (if used)
-├── components/     # Reusable UI components
-├── public/         # Static assets
-├── styles/         # Global styles
-├── .env.local      # Environment variables
-```
-
----
-
-## 🔐 Environment Variables
-
-Create a `.env.local` file in the root directory:
-
-```env
-NEXT_PUBLIC_API_URL=http://localhost:8080
-```
-
----
-
 ## 📚 Learn More
 
 - Next.js Documentation: https://nextjs.org/docs
 - React Documentation: https://react.dev/
-
----
-
-## ⚠️ Notes
-
-- Make sure the backend API is running before starting the frontend.
-- Update `NEXT_PUBLIC_API_URL` according to your backend environment.
 
 ---
